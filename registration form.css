@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    background: linear-gradient(135deg,cornflowerblue,#fff);
+}
+.container{
+    min-width: 300px;
+    max-width: 0px;
+    float: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    height: 85vh;
+    padding: 20px 30px;
+    border-radius: 50px;
+    position:relative;
+    background: linear-gradient(135deg,#fff,cornflowerblue);
+}
+.container .title{
+    font-size: 20px;
+    font-weight: 500px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    color:#000;
+    position: relative;
+}
+.container .details{
+    font-size: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:normal;
+    font-weight: 0;
+    min-height: 80px;
+}
+div,input .category{
+    justify-content: space-between;
+}
+button{
+    color: #000;
+    height: 30px;
+    width: 300px;
+    background:linear-gradient(-135deg,#fff,cornflowerblue);
+    font-size: 15px;
+}
+button:hover{
+    background:linear-gradient(135deg,#fff,cornflowerblue);
+}
+input{
+    width: none;
+    align-content: center;
+    text-align: none;
+}
+textarea{
+    resize: vertical;
+    max-height: 100px;
+}
+input, textarea{
+    outline: none;
+    border: 1px solid #000;
+}
+.input,details{
+    align-content: center;
+}
+input:focus, textarea:focus{
+    box-shadow: 0 0 10px cornflowerblue;
+    border: 2px solid cornflowerblue;
+}
+::placeholder{
+    color: #000;
+    opacity: 1;
+}
+/*:-ms-input-placeholder{
+    color: ;
+}*/
+::-ms-input-placeholder{
+    color: lime;
+    opacity: 2;
+}
+div{
+    color:rgb(0, 0, 0);
+    box-sizing: 100;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" type="text/css" href="registration form.css">
+</head>
+<body>
+    <form action="form.script" method="post">
+      <div class="container">
+            <div class="title">REGISTRATION</div>
+                  <br>
+                  <div class="input-box">
+                                    <span class="details">FULL NAME</span>
+                                    <br>
+                                    <input type="text" name="full name" placeholder="Enter your full name...">
+                  </div>
+                  <br>
+                  <div class="input-box">
+                                    <span class="details">USER NAME</span>
+                                    <br>
+                                    <input type="text" name="user name" placeholder="Enter your User name...">
+                                    
+                  </div>            
+                  <br>
+                  <div class="input-box">
+                                    <span class="details">GMAIL</span>
+                                    <br>
+                                    <input type="text" name="gmail" placeholder=" Enter gmail...">
+                                    <br>
+                  </div>                  
+                  <br>
+                  <div class="input-box">                  
+                                    <span class="details">CONTACT NUMBER</span>
+                                    <br> 
+                                    <input type="number" name="number" placeholder="Enter contact number...">
+                                    <br>
+                  </div>   
+                  <br>
+                  <div class="input-box">
+                                    <span class="details">AGE</span>
+                                    <br>
+                                          <select name="age">
+                                                <option value="age">NULL</option>
+                                                <option value="age">12-18</option>
+                                                <option value="age">19-24</option>
+                                                <option value="age">25-35</option>
+                                                <option value="age">35above</option>
+                                          </select>
+                                    <br>      
+                  </div>
+                  <br>
+                  <div class="input-box">
+                                    <span class="details">PASSWORD</span>
+                                    <br>
+                                    <input type="password" name="PWD" placeholder="Enter password...">
+                                    <br>
+                                    <input type="confirm password" name="PWD" placeholder="Confirm password...">
+                  </div>
+                  <br>
+                  <div class="input-box">
+                                    <span class="details">INFORMATION</span>
+                                    <br>
+                                    <textarea name="information" placeholder="enter information..."></textarea>
+                  </div>
+                  <br>
+                  <div class="input-box">
+                                    <div class="title" class="category">GENDER</div>
+                                    male:<input type="radio" name="gender" value="male" checked>
+                                    female:<input type="radio" name="gender" value="female">
+                                    other:<input type="radio" name="gender" value="other">
+                                    <br>
+                  </div>
+                  <br>
+                  <div>
+                                    <button type="Submit" name="Submit" class="toggle-btn">REGISTER</button>
+                  </div>                  
+            </div>
+      </div>
+    </form>
+</body>
+</html> 
